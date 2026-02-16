@@ -46,7 +46,7 @@ After executing the command, you must complete the options with the access key c
 
           4.1.	If you want to connect to a Linux EC2 instance, you must execute the following command to connect the EC2 instance:
 
-aws ec2-instance-connect ssh  --instance-id <instance id>  --private-key-file "path of the Key-pair”
+## aws ec2-instance-connect ssh  --instance-id <instance id>  --private-key-file "path of the Key-pair”
 
 
 This command can be executed from Windows and Linux machine:
@@ -62,7 +62,7 @@ The instance ID you can find it at the instances section.
 
           4.2.	If you want to connect to a Windows EC2 instance, you must execute the following command to connect to the EC2 instance:
 
-aws ec2-instance-connect open-tunnel  --instance-id <instance id>  --remote-port 3389 --local-port <any-port>
+## aws ec2-instance-connect open-tunnel  --instance-id <instance id>  --remote-port 3389 --local-port <any-port
 
 # ![](images/9.png)
 
@@ -75,6 +75,7 @@ After that, you must execute Microsoft Remote Desktop and use the same parameter
 
 
 Note: Take in mind that this is a Windows EC2, so you must allow all RDP (3389) incoming traffic.
+
 
 
 
