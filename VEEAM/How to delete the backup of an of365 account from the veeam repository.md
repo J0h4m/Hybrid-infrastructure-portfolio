@@ -8,7 +8,7 @@ To remove the user's backup, it's recommended to wait until the user's retention
 
 
 ### Get-VBORepository
-# ![](VEEAM\images\1.png)
+# ![](images\1.png)
 
 
 With the output of this command, you must identify the name of the organization to which the user whose backup you want to delete belongs.
@@ -36,6 +36,7 @@ After that, you can verify that the backup has been deleted by attenting to reco
 Additionally, if email notifications are enabled, you will receive a notification that the backup has been deleted, as follows:
 
 # ![](images\5.png)
+
 
 
 
