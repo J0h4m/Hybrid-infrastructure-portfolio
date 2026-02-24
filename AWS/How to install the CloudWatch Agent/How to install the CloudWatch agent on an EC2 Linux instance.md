@@ -38,14 +38,14 @@ To make an example, let’s install a web server on the EC2 to collect access an
 
 2. To install the CloudWatch Agent, run the following commad:
 
-### sudo yum install amazon-cloudwatch-agent
+            sudo yum install amazon-cloudwatch-agent
 
 After that, in the CloudWatch pane, you will see the CloudWatch Agent column as “Installed”. 
 
 
 3. To configure the agent, run the following commad:
 
-### sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+            sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 
 Then, you must enter some of the options provided by the wizard, just adjust them as needed:
 
@@ -64,13 +64,13 @@ After that, in the CloudWatch pane, you will see the Configuration column as “
 
 4. Then, execute the following command to get the configuration from AWS System Manager (SSM) and start the agent:
 
-### sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c ssm:AmazonCloudWatch-linux -s
+            sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c ssm:AmazonCloudWatch-linux -s
 
 
-              or you can use the following command to get the configuration from the local JSON file inside the EC2 instance and start the agent:
+or you can use the following command to get the configuration from the local JSON file inside the EC2 instance and start the agent:
 
 
-### sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
+            sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
 
 # ![](images/12.png)
 
@@ -78,5 +78,6 @@ After that, in the CloudWatch pane, you will see the Configuration column as “
 As a result, you can see the logs and metrics in the CloudWatch Logs pane, at the left of the screen:
 
 # ![](images/13.png)
+
 
 
