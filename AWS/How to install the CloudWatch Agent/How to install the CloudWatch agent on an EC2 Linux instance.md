@@ -3,11 +3,11 @@
 ## Prerequisites:
 * The EC2 instance must have a role with the following permissions:
 
-AmazonSSMManagedInstanceCore
+A. AmazonSSMManagedInstanceCore
 
-CloudWatchAgentAdminPolicy
+B. CloudWatchAgentAdminPolicy
 
-CloudWatchAgentServerPolicy
+C. CloudWatchAgentServerPolicy
 
 CloudWatch is a monitoring and observability service provided by AWS, it collects basic metrics and CloudWatch agent is a small program you install on your server (on-premises or VM) so it can collect more detailed data to AWS CloudWatch, because it can see inside your server’s operating system.
 
