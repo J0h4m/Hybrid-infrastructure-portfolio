@@ -1,6 +1,6 @@
 ## HOW TO REMOVE A USER FROM THE VEEAM FOR OFFICE 365 BACKUP JOB
 
-Since a user cannot be removed or excluded from de Veeam For OF365 backup job if that user was previously deleted from the OF365 tenant, the following steps must be taken:
+Since a user cannot be removed or excluded from the Veeam For OF365 backup job if that user was previously deleted from the OF365 tenant, the following steps must be taken:
 
 ### STEPS:
 
