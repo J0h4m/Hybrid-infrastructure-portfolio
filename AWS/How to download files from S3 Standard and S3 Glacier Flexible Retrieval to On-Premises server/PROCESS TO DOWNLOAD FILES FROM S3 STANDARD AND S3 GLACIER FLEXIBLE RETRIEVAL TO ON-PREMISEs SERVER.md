@@ -1,4 +1,4 @@
-# PROCESS TO DOWNLOAD FILES FROM S3 STANDARD AND S3 GLACIER FLEXIBLE RETRIEVAL TO ON-PREMISEs SERVER
+# PROCESS TO DOWNLOAD FILES FROM S3 BUCKET STANDARD AND S3 GLACIER FLEXIBLE RETRIEVAL TO ON-PREMISEs SERVER
 
 
 In this article, let’s talk about how to download files from two different tiers of S3 (Standard and Glacier Flexible Retrieval). Let’s break down in two sections to address both cases. 
