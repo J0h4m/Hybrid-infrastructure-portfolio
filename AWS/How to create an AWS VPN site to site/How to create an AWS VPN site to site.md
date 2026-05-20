@@ -4,7 +4,7 @@ AWS Site-to-Site VPN is a fully managed service that creates secure, encrypted I
 
 # ![](images/1.png)
 
-Let’s create a VPN site to site to communicate an AWS VPC to a Local network. The first thing that we need to know is the parameters of each network. For this case, we’ll use:
+Let’s create a VPN site to site to communicate an AWS VPC to a local network. The first thing that we need to know is the parameters of each network. For this case, we’ll use:
 
 * Local IPv4 network CIDR: 10.75.0.0/24
 
